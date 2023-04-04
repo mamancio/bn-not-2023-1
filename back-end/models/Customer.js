@@ -31,7 +31,7 @@ const schema = mongoose.Schema({
         },
         complement:{
             type: String,
-            required: true
+            required: false
         },
         district:{
             type: String,
